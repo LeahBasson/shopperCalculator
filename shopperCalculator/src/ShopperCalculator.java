@@ -6,40 +6,40 @@ public class ShopperCalculator {
 
     
     public static void main(String[] args) {
-        Scanner scn = new Scanner(System.in);
+        Scanner kbd = new Scanner(System.in);
         
         String item1,item2,item3,item4,item5;
         double price1,price2,price3,price4,price5,sum;
         
         System.out.print("Enter the name of the first item you want to buy: ");
-        item1 = scn.next();
+        item1 = kbd.next();
         
         System.out.print("Enter the price of the first item: R");
-        price1 = scn.nextDouble();
+        price1 = kbd.nextDouble();
         
         System.out.print("Enter the name of the second item you want to buy: ");
-        item2 = scn.next();
+        item2 = kbd.next();
         
         System.out.print("Enter the price of the second item: R");
-        price2 = scn.nextDouble();
+        price2 = kbd.nextDouble();
         
         System.out.print("Enter the name of the third item you want to buy: ");
-        item3 = scn.next();
+        item3 = kbd.next();
         
         System.out.print("Enter the price of the third item: R");
-        price3 = scn.nextDouble();
+        price3 = kbd.nextDouble();
         
         System.out.print("Enter the name of the fourth item you want to buy: ");
-        item4 = scn.next();
+        item4 = kbd.next();
         
         System.out.print("Enter the price of the fourth item: R");
-        price4 = scn.nextDouble();
+        price4 = kbd.nextDouble();
         
         System.out.print("Enter the name of the fifth item you want to buy: ");
-        item5 = scn.next();
+        item5 = kbd.next();
         
         System.out.print("Enter the price of the fifth item: R");
-        price5 = scn.nextDouble();
+        price5 = kbd.nextDouble();
         
         System.out.println("===================================================");
         System.out.println("You have selected to buy the following items:");
