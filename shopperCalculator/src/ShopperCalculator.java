@@ -9,7 +9,7 @@ public class ShopperCalculator {
         Scanner kbd = new Scanner(System.in);
         
         String item1,item2,item3,item4,item5;
-        double price1,price2,price3,price4,price5,sum;
+        double price1,price2,price3,price4,price5,total;
         
         System.out.print("Enter the name of the first item you want to buy: ");
         item1 = kbd.next();
@@ -54,9 +54,9 @@ public class ShopperCalculator {
         System.out.println("---------------------------------------------------");
         
         
-        sum = price1 + price2 + price3 + price4 + price5;
+        total = price1 + price2 + price3 + price4 + price5;
                 
-        System.out.println("Total for all items: R" + sum);
+        System.out.println("Total for all items: R" + total);
     }
     
 }
